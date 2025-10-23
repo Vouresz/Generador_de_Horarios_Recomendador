@@ -1,0 +1,62 @@
+@startgantt
+Project starts 2025-10-16
+
+title Gantt - Sistema de Recomendación y Generación Automática de Horarios
+
+' === Sprint 1 ===
+[Sprint 1: Infraestructura y Dashboard inicial] requires 7 days
+[Diseño del modelo de datos y estructura BD] requires 7 days
+[Configuración de arquitectura multicapa (Frontend-Backend-DB)] requires 7 days
+
+[Prototipo inicial del Dashboard (RF4)] requires 7 days
+[Configuración Docker e integración inicial] requires 7 days
+[Diseño del modelo de datos y estructura BD] starts at [Sprint 1: Infraestructura y Dashboard inicial]'s start
+[Configuración de arquitectura multicapa (Frontend-Backend-DB)] starts at [Sprint 1: Infraestructura y Dashboard inicial]'s start
+[Prototipo inicial del Dashboard (RF4)] starts at [Sprint 1: Infraestructura y Dashboard inicial]'s start
+[Configuración Docker e integración inicial] starts at [Sprint 1: Infraestructura y Dashboard inicial]'s start
+ 
+' === Sprint 2 ===
+[Sprint 2: Desarrollo de módulos principales] requires 7 days
+[Filtrado colaborativo y por contenido (Recomendador)] requires 7 days
+[Entrenamiento preliminar del Predictor] requires 7 days
+[Definición del algoritmo base del Generador de horarios] requires 7 days
+[Integración Recomendador-Predictor] requires 7 days
+[Pruebas unitarias iniciales] requires 7 days
+[Implementación de endpoints REST base] requires 7 days
+
+[Sprint 2: Desarrollo de módulos principales] starts at [Sprint 1: Infraestructura y Dashboard inicial]'s end
+[Filtrado colaborativo y por contenido (Recomendador)] starts at [Sprint 2: Desarrollo de módulos principales]'s start
+[Entrenamiento preliminar del Predictor] starts at [Sprint 2: Desarrollo de módulos principales]'s start
+[Definición del algoritmo base del Generador de horarios] starts at [Sprint 2: Desarrollo de módulos principales]'s start
+[Integración Recomendador-Predictor] starts at [Sprint 2: Desarrollo de módulos principales]'s start
+[Pruebas unitarias iniciales] starts at [Sprint 2: Desarrollo de módulos principales]'s start
+[Implementación de endpoints REST base] starts at [Sprint 2: Desarrollo de módulos principales]'s start
+
+
+' === Sprint 3 ===
+[Sprint 3: Refinamiento de algoritmos y sincronización] requires 7 days
+[Ajuste de precisión del Recomendador] requires 7 days
+[Entrenamiento modelo ML (Predictor)] requires 7 days
+[Implementación del algoritmo greedy y refinamiento local (Generador)] requires 7 days
+[Validación de resultados integrados] requires 7 days
+
+[Sprint 3: Refinamiento de algoritmos y sincronización] starts at [Sprint 2: Desarrollo de módulos principales]'s end
+[Ajuste de precisión del Recomendador] starts at [Sprint 3: Refinamiento de algoritmos y sincronización]'s start
+[Entrenamiento modelo ML (Predictor)] starts at [Sprint 3: Refinamiento de algoritmos y sincronización]'s start
+[Implementación del algoritmo greedy y refinamiento local (Generador)] starts at [Sprint 3: Refinamiento de algoritmos y sincronización]'s start
+[Validación de resultados integrados] starts at [Sprint 3: Refinamiento de algoritmos y sincronización]'s start
+
+' === Sprint 4 ===
+[Sprint 4: Integración final y Dashboard de métricas] requires 7 days
+[Integración total de módulos RF1-RF3] requires 7 days
+[Dashboard final de métricas (RF4)] requires 7 days
+[Pruebas funcionales y de rendimiento] requires 7 days
+
+[Sprint 4: Integración final y Dashboard de métricas] starts at [Sprint 3: Refinamiento de algoritmos y sincronización]'s end
+[Integración total de módulos RF1-RF3] starts at [Sprint 4: Integración final y Dashboard de métricas]'s start
+[Dashboard final de métricas (RF4)] starts at [Sprint 4: Integración final y Dashboard de métricas]'s start
+[Pruebas funcionales y de rendimiento] starts at [Sprint 4: Integración final y Dashboard de métricas]'s start
+
+
+
+@endgantt
